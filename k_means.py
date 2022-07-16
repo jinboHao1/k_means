@@ -75,6 +75,7 @@ def getdata(xls) :
     return np.array(data)  #转化成数组
 
 if __name__ == '__main__':
+    # 在相同文件夹下放一个data.xls的文件
     data = getdata('data.xls')
     # print(data)
     centers = data[:3]
